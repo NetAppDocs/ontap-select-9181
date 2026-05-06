@@ -2,6 +2,7 @@
 settings:
   name: ONTAP Select
   harmony_integration: maestro
+  downlevel: true
   internal:
     pdf_enabled: true
     lipi_enabled: true
@@ -19,8 +20,7 @@ settings:
       url: /ontap-select-9161
     - version-number: "9.15.1"
       url: /ontap-select-9151 
-    - version-number: "9.14.1"
-      url: /ontap-select-9141                    
+                
 sidebar:
   entries:
     - title: ONTAP Select 9.18.1 docs
